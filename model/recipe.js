@@ -4,7 +4,7 @@ const Recipe = new Schema(
 
     {
         title: { type: String, required: true },
-        coverImage: { type: String, required: true },
+        coverImage: { type: String, required: false },
         servesPeople: { type: Number, required: false },
         cookTime: { type: Number, required: false },
         cookTimeUnit: { type: String, required: false },
