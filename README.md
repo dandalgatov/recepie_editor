@@ -1,1 +1,1 @@
-# recepie_editor
+# recipe_editor
